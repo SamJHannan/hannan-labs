@@ -310,7 +310,6 @@ button {
   background-position: center;
   background-size: cover;
   isolation: isolate;
-  transition: border-color 220ms ease, transform 220ms ease;
 }
 
 .project-card::before {
@@ -339,11 +338,6 @@ button {
 .project-card--other {
   background-image: url("/assets/other-card.jpg");
   background-position: center;
-}
-
-.project-card:hover {
-  border-color: #717572;
-  transform: translateY(-3px);
 }
 
 .project-card__topline {
