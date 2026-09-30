@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <meta
+      name="description"
+      content="Hannan Labs — small experiments in software, data and useful things."
+    />
+    <link rel="icon" href="/assets/orbital-system.png" type="image/png" />
+    <title>Hannan Labs — Small experiments in software, data and useful things.</title>
+  </head>
+  <body>
+    <div class="site-shell" id="top">
+      <header class="site-header" data-header>
+        <a class="brand" href="#top" aria-label="Hannan Labs home">
+          <i class="ph-fill ph-circles-four brand-mark" aria-hidden="true"></i>
+          <span>HANNAN LABS</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          data-menu-toggle
+        >
+          <span class="menu-toggle__label">Menu</span>
+          <i class="ph ph-list" aria-hidden="true"></i>
+        </button>
+
+        <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation" data-menu>
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="about" aria-labelledby="hero-title">
+          <div class="hero__copy">
+            <p class="eyebrow">HANNAN LABS</p>
+            <h1 id="hero-title">Small experiments<br />in software, data<br />and useful things.</h1>
+            <p class="hero__supporting-copy">
+              A space for side projects, tools and ideas — from better commutes to smarter hardware and everything in between.
+            </p>
+          </div>
+
+          <div class="hero__art" aria-hidden="true">
+            <img
+              src="/assets/orbital-system.png"
+              alt=""
+              width="1983"
+              height="793"
+              decoding="async"
+            />
+          </div>
+        </section>
+
+        <section class="projects-section" id="projects" aria-labelledby="projects-title">
+          <div class="section-heading">
+            <h2 id="projects-title">Projects</h2>
+            <span aria-hidden="true"></span>
+          </div>
+
+          <div class="projects-grid">
+            <a
+              class="project-card project-card--paper"
+              href="#contact"
+              aria-label="Ask about the Paper project"
+            >
+              <div class="project-card__topline">
+                <i class="ph ph-file-text project-card__icon" aria-hidden="true"></i>
+              </div>
+              <div class="project-card__content">
+                <h3>Paper</h3>
+                <p class="project-card__summary">Tools for the Lenovo Smart Paper.</p>
+                <p class="project-card__description">
+                  Utilities, templates and ideas to get more from a simpler, more focused device.
+                </p>
+              </div>
+              <span class="project-card__link">View project <i class="ph ph-arrow-right" aria-hidden="true"></i></span>
+            </a>
+
+            <a
+              class="project-card project-card--commute"
+              href="#contact"
+              aria-label="Ask about the Commute Intelligence project"
+            >
+              <div class="project-card__topline">
+                <i class="ph ph-chart-bar project-card__icon" aria-hidden="true"></i>
+              </div>
+              <div class="project-card__content">
+                <h3>Commute Intelligence</h3>
+                <p class="project-card__summary">Smarter drive vs train decisions.</p>
+                <p class="project-card__description">
+                  Data-driven insights to make everyday commutes a bit easier, cheaper and calmer.
+                </p>
+              </div>
+              <span class="project-card__link">View project <i class="ph ph-arrow-right" aria-hidden="true"></i></span>
+            </a>
+
+            <a
+              class="project-card project-card--other"
+              href="#contact"
+              aria-label="Ask about other Hannan Labs experiments"
+            >
+              <div class="project-card__topline">
+                <i class="ph ph-plus project-card__icon" aria-hidden="true"></i>
+              </div>
+              <div class="project-card__content">
+                <h3>Other experiments</h3>
+                <p class="project-card__summary">Whatever comes next.</p>
+                <p class="project-card__description">
+                  A sandbox for new ideas, side projects and useful tools.
+                </p>
+              </div>
+              <span class="project-card__link">View project <i class="ph ph-arrow-right" aria-hidden="true"></i></span>
+            </a>
+          </div>
+        </section>
+
+      </main>
+
+      <footer class="site-footer" id="contact">
+        <a class="contact-link" href="mailto:sam@hannanlabs.dev">
+          <i class="ph ph-envelope-simple" aria-hidden="true"></i>
+          <span>sam@hannanlabs.dev</span>
+        </a>
+        <div class="footer-signature">
+          <span>BUILT WITH CURIOSITY</span>
+          <i class="ph-fill ph-circles-four" aria-hidden="true"></i>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
