@@ -46,11 +46,6 @@
   font-family: "Phosphor-Fill" !important;
 }
 
-.ph.ph-arrow-right::before,
-.ph-fill.ph-arrow-right::before {
-  content: "\e06c";
-}
-
 .ph.ph-chart-bar::before,
 .ph-fill.ph-chart-bar::before {
   content: "\e150";
@@ -145,8 +140,7 @@ button {
 .brand,
 .site-nav,
 .footer-signature,
-.contact-link,
-.project-card__link {
+.contact-link {
   text-transform: uppercase;
   letter-spacing: 0.22em;
 }
@@ -389,28 +383,6 @@ button {
   color: #a3a5a2 !important;
   font-size: 15px !important;
   line-height: 1.58 !important;
-}
-
-.project-card__link {
-  display: inline-flex;
-  align-items: center;
-  gap: 13px;
-  margin-top: auto;
-  padding-top: 23px;
-  color: #e7e8e4;
-  font-size: 10px;
-  font-weight: 500;
-  letter-spacing: 0.24em;
-}
-
-.project-card__link i {
-  font-size: 16px;
-  letter-spacing: 0;
-  transition: transform 180ms ease;
-}
-
-.project-card:hover .project-card__link i {
-  transform: translateX(3px);
 }
 
 .site-footer {
